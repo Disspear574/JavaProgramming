@@ -1,6 +1,6 @@
 package lr1;
 
-import lr1.core.Consts;
+import core.Consts;
 
 import java.util.Scanner;
 

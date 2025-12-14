@@ -1,4 +1,4 @@
-package lr1.core;
+package core;
 
 import java.time.LocalDate;
 
