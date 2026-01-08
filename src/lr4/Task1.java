@@ -1,6 +1,5 @@
 package lr4;
 
-import core.KConsts;
 import core.Logger;
 
 public class Task1 {
@@ -11,14 +10,14 @@ public class Task1 {
         int z;
 
         for (i = 1; i <= figure; i++) {
-            Logger.log("Номер строки:" + KConsts.SPACE  + i + KConsts.SPACE);
+            Logger.log("Номер строки:" + " "  + i + " ");
             z = 0;
 
             for (j = -5; j < figure; j++) {
                 Logger.log("+");
                 z = z + 1;
             }
-            Logger.log("Количество символов в строке" + KConsts.SPACE + z);
+            Logger.log("Количество символов в строке" + " " + z);
         }
     }
 }
